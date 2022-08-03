@@ -324,9 +324,11 @@ background-color: #f3f8ff !important;
 .kotak-offer-list h4{
   font-weight: 400;
   line-height: 1.80;
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
   font-size: 16px;
+  color:#34495e ;
+  
 
 }
 .kotak-offer-list li{
