@@ -346,19 +346,135 @@ background-color: #f3f8ff !important;
   border-bottom: 1px solid #ddd;
   text-align: center;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 30px 10px;
   margin-top: 20px;
 
 }
+.resource-ul{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
 .resource-ul li{
   list-style: disc;
-  padding-left: 15px;
+  margin-left: 15px;
 
 
 }
+.ul-for-home-news li{
+  position: relative;
+  border-bottom: 5px solid #35be7a;
+  list-style: none;
+  background-color: #f4f5f7;
+  padding: 10px 15px;
+  margin: 15px 0 30px;
+  border-radius: 6px;
+}
+.ul-for-home-news li p{
+  line-height: 1.80;
+  margin: 0 0 10px;
+  font-size: 16px;
+
+}
+.income-document-table tr td{
+  padding-left: 10px;
+}
+.pull-right {
+  float: right!important;
+}
+.ul-for-home-news li h3{
+
+  background-color: #35be7a;
+  white-space: normal;
+  width: 50%;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  padding: 14px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  border: 1px solid #ddd;
+  position: relative;
+  top: -25px;
+  left: -17px;
+  font-size: 22px;
+}
+.home-loannews h2{
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+.resource-ul li a{
+text-decoration: underline;
+color: #116a9e;
+font-weight: 500;
+margin-bottom: 5px;
+}
 .-colapsinside .card.card-body{
   border: none ;
+
+}
+.application-status .border-left-malibu{
+  border-left: 5px solid #69dff3;
+  background-color: #eef5fd;
+  padding: 10px;
+}
+.application-status .border-left-malibu h5{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 700;
+color: #34495e;
+padding-left: 10px;
+
+}
+
+.application-status h2{
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.container-card h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #34495e;
+  text-decoration: underline;
+}
+.container-card {
+  margin-bottom: 20px;
+}
+.container-card p{
+  font-size: 16px;
+  line-height: 1.80;
+  color: #34495e;
+
+
+}
+.total-amount{
+  font: 16px;
+  color: #fff;
+  padding: 15px 0;
+  border-top: 2px solid #fff;
+}
+.nav.navbar-nav.navbar-right.inside-ul li a{
+  color: #004198 !important;
+}
+.application-status .border-left-malibu p{
+  padding-left: 10px;
+  line-height: 1.80;
+  font-size: 16px;
 
 }
 .-colapsinside li{

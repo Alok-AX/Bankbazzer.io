@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from validthemes.online/themeforest/anada/blog-single-with-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jan 2022 12:13:26 GMT -->
-
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
@@ -106,12 +102,12 @@
             display: flex;
             justify-content: space-between;
             background: #34495e;
-    color: #fff;
-    text-align: center;
-    padding: 24px;
-    font-size: 30px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px
+            color: #fff;
+            text-align: center;
+            padding: 24px;
+            font-size: 30px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px
         }
 
         /*----- Styling the sliders ----*/
@@ -120,7 +116,8 @@
             margin: 10px 0;
             width: 100%;
         }
-        .save-card{
+
+        .save-card {
             width: 60%;
         }
 
@@ -245,17 +242,18 @@
         .calculator-custome {
             background: #38acc9;
         }
-        .calculate-btn{
+
+        .calculate-btn {
             background: #4bbc9b;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 46px;
-    color: #fff;
-    font-size: 20px;
-    margin: 25px auto;
-    width: 200px;
-    display: block;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 46px;
+            color: #fff;
+            font-size: 20px;
+            margin: 25px auto;
+            width: 200px;
+            display: block;
         }
 
         .payble {
@@ -269,7 +267,10 @@
             font-size: 20px;
             font-weight: normal;
         }
-        #loan-period-text, #interest-rate-text, #loan-amt-text{
+
+        #loan-period-text,
+        #interest-rate-text,
+        #loan-amt-text {
             margin-bottom: 0;
             margin-left: 15px;
         }
@@ -292,18 +293,27 @@
 
     <style>
         @media only screen and (max-width: 768px) {
-.sub-container{
- flex-direction: column;
- gap: 0;
+            .sub-container {
+                flex-direction: column;
+                gap: 0;
 
-}
-.save-card{
-    width: 100%;
-}
-.breakup{
-    width: 100%;
-}
-}
+            }
+
+            .save-card {
+                width: 100%;
+            }
+
+            .breakup {
+                width: 100%;
+            }
+            .navbar-brand.navmobile-view-hide{
+                display: none !important;
+            }
+            .nav.navbar-nav.navbar-right.inside-ul{
+                background-color: #fff;
+                text-align: left;
+            }
+        }
     </style>
 
 
@@ -337,64 +347,70 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                 
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand d-lg-none" href="index.html">
+                        <img src="	https://static.bankbazaar.com/images/bankbazaar-logo-v2.webp"
+                            class="logo logo-display" alt="Logo">
+                        <img src="	https://static.bankbazaar.com/images/bankbazaar-logo-v2.webp"
+                            class="logo logo-scrolled" alt="Logo">
+                    </a>
+
+                    <div class="collapse navbar-collapse " id="navbar-menu">
+                        <a class="navbar-brand navmobile-view-hide" href="index.html">
                             <img src="	https://static.bankbazaar.com/images/bankbazaar-logo-v2.webp"
                                 class="logo logo-display" alt="Logo">
                             <img src="	https://static.bankbazaar.com/images/bankbazaar-logo-v2.webp"
                                 class="logo logo-scrolled" alt="Logo">
                         </a>
 
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <ul class="nav navbar-nav navbar-right inside-ul" data-in="fadeInDown" data-out="fadeOutUp">
 
-                        <li class="dropdown">
-                            <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Loans</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Demo</a>
-                                </li>
+                            <li class="dropdown">
+                                <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Loans</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Demo</a>
+                                    </li>
 
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cards</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cards</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
 
-                            </ul>
-                        </li>
+                                </ul>
+                            </li>
 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investments</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
-                                <li>
-                                    <a href="#">DEMO</a>
-                                </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investments</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DEMO</a>
+                                    </li>
 
-                            </ul>
-                        </li>
-                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
 
                     </div>
                 </div>
@@ -418,8 +434,8 @@
             <div class="side">
                 <a href="#" class="close-side"><i class="ti-close"></i></a>
                 <div class="widget">
-                 
-                   
+
+
                 </div>
 
             </div>
@@ -1279,64 +1295,64 @@
             <div class="calculator-custome">
                 <div class=" col-lg-10 p-0 m-auto ">
                     <div class=" sub-container">
-                        <div class="save-card" >
-                        <div class=" view mr-0 ml-0 w-100 pb-3 pt-3 mb-0">
-                            <div class="details">
-                                <div class="-calculator-progress-bar">
-                                    <div class="detail">
-                                        <p style="color: #116a9e; margin-bottom: 0;">Loan Amount</p>
+                        <div class="save-card">
+                            <div class=" view mr-0 ml-0 w-100 pb-3 pt-3 mb-0">
+                                <div class="details">
+                                    <div class="-calculator-progress-bar">
+                                        <div class="detail">
+                                            <p style="color: #116a9e; margin-bottom: 0;">Loan Amount</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <input type="range" id="loan-amount" min="0" max="10000000" step="50000">
+
+                                            <p id="loan-amt-text" style="color: #116a9e"></p>
+
+
+
+
+                                        </div>
                                     </div>
-                                    <div class="d-flex">
-                                        <input type="range" id="loan-amount" min="0" max="10000000" step="50000">
 
-                                        <p id="loan-amt-text" style="color: #116a9e"></p>
+                                    <div class="calculator-progress-bar">
+                                        <div class="detail">
+                                            <p style="color: #116a9e; margin-bottom: 0;">% Interest Rate</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <input type="range" id="interest-rate" min="1" max="15" step="0.5">
+
+                                            <p id="interest-rate-text" style="color: #116a9e"></p>
 
 
 
+                                        </div>
+                                    </div>
+                                    <div class="calculator-progress-bar">
+                                        <div class="detail">
+                                            <p style="color: #116a9e;margin-bottom: 0;">Loan Tenure</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <input type="range" id="loan-period" min="1" max="30" step="1">
 
+                                            <p id="loan-period-text" style="color: #116a9e"></p>
+
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="calculator-progress-bar">
-                                    <div class="detail">
-                                        <p style="color: #116a9e; margin-bottom: 0;">% Interest Rate</p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <input type="range" id="interest-rate" min="1" max="15" step="0.5">
-
-                                        <p id="interest-rate-text" style="color: #116a9e"></p>
-
-
-
-                                    </div>
+                                <div class="payble">
+                                    <p>Processing Fee</p>
+                                    <input type="text">
                                 </div>
-                                <div class="calculator-progress-bar">
-                                    <div class="detail">
-                                        <p style="color: #116a9e;margin-bottom: 0;">Loan Tenure</p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <input type="range" id="loan-period" min="1" max="30" step="1">
 
-                                        <p id="loan-period-text" style="color: #116a9e"></p>
+                                <button class="calculate-btn">Calculate</button>
 
-                                    </div>
-                                </div>
                             </div>
-
-                            <div class="payble">
-                                <p>Processing Fee</p>
-                                <input type="text">
+                            <div class="footer-calculator mb-3 text-center">
+                                <p id="price-container"><span id="price">0</span></p>
                             </div>
-
-                            <button class="calculate-btn">Calculate</button>
-                         
                         </div>
-                        <div class="footer-calculator mb-3 text-center">
-                            <p id="price-container"><span id="price">0</span></p>
-                        </div>
-                    </div>
                         <div class="breakup">
-                            <canvas id="pieChart"style=" width: 250px;height=250px;" ></canvas>
+                            <canvas id="pieChart" style=" width: 250px;height=250px;"></canvas>
 
                             <div>
                                 <div class="loan-details">
@@ -1526,7 +1542,7 @@
                 </li>
 
             </ul>
-            
+
         </div>
     </section>
 
@@ -1539,43 +1555,152 @@
                 <table class="table table-striped ">
                     <thead style="background-color: #116a9e; color: #fff; text-align:center;">
                         <tr>
-                          <th scope="col" style="width:50% ;">Eligibility Criteria</th>
-                          <th scope="col" style="width:50% ;">	Requirement</th>
-                          
+                            <th scope="col" style="width:50% ;">Eligibility Criteria</th>
+                            <th scope="col" style="width:50% ;"> Requirement</th>
+
                         </tr>
-                      </thead>
-                      <tbody>
+                    </thead>
+                    <tbody>
                         <tr>
-                        
-                          <td>Age</td>
-                          <td>Minimum Age: 18 years and Maximum Age: 70 years</td>
-                        
-                        </tr>
-                        <tr>
-                          <td>Resident Type</td>
-                          <td><ul>
-                            <h3>The applicant must be (any one):</h3>
-                            <li>Resident Indian</li>
-                            <li>Non-Resident India (NRI)</li>
-                            <li>Person of Indian Origin (PIO)</li>
-                          </ul></td>
-                     
+
+                            <td>Age</td>
+                            <td>Minimum Age: 18 years and Maximum Age: 70 years</td>
+
                         </tr>
                         <tr>
-                         
-                          <td>Employment</td>
-                          <td><ul>
-                            <h3>The applicant can be (any one):</h3>
-                            <li>Salaried</li>
-                            <li>Self-employed</li>
-                          </ul></td>
+                            <td>Resident Type</td>
+                            <td>
+                                <ul>
+                                    <h3>The applicant must be (any one):</h3>
+                                    <li>Resident Indian</li>
+                                    <li>Non-Resident India (NRI)</li>
+                                    <li>Person of Indian Origin (PIO)</li>
+                                </ul>
+                            </td>
+
                         </tr>
-                      </tbody>
-                  
-                  </table>
+                        <tr>
+
+                            <td>Employment</td>
+                            <td>
+                                <ul>
+                                    <h3>The applicant can be (any one):</h3>
+                                    <li>Salaried</li>
+                                    <li>Self-employed</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
             </div>
         </div>
-       
+
+    </section>
+    <section class="application-status">
+        <div class="container">
+            <div class="border-gallery border-left-malibu bg-blue pad-10">
+                <h5 class="lt-pad-10">Track Your Home Loan Application Status</h5>
+                <p class="lt-pad-10">BankBazaar helps you track your loan application easily. Simply visit <a
+                        href="/home-loan/verifyOwnershipForm.html" target="_blank">application status</a>, enter your
+                    Application ID and your mobile number, and get the status.</p>
+            </div>
+            <h2 class="text-center pad-10">Before you Apply for a Home Loan</h2>
+
+
+
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 clearfix top-pad-10 container-card row ">
+                <div class="col-xs-12 col-md-4 text-center pad-10">
+                    <img alt="Home Loan EMI Calculator" title="Home Loan EMI Calculator"
+                        src="https://www.bankbazaar.com/images/india/infographic/home-loan-emi-calculator-march-2019.png"
+                        class="img-responsive lazy pad-10" style="display: inline; overflow: hidden;">
+                </div>
+                <div class="col-xs-12 pad-10 col-md-8">
+                    <h3><a href="#">Check Home Loan EMI Calculator</a></h3>
+                    <p>Our EMI calculator helps you calculate the amount you have to pay the bank every month. Input
+                        your loan amount, tenure, interest rate, and processing fee to get your EMI and loan
+                        amortisation details.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -1588,41 +1713,43 @@
                 <table class="table table-striped ">
                     <thead style="background-color: #116a9e; color: #fff; text-align:center;">
                         <tr>
-                          <th scope="col" style="width:20% ;">Identity Proof (any one)</th>
-                          <th scope="col" style="width:40% ;">	Residence Proof (any one)</th>
-                          <th scope="col" style="width:40% ;">	Other Documents</th>
+                            <th scope="col" style="width:20% ;">Identity Proof (any one)</th>
+                            <th scope="col" style="width:40% ;"> Residence Proof (any one)</th>
+                            <th scope="col" style="width:40% ;"> Other Documents</th>
 
-                          
+
                         </tr>
-                      </thead>
-                      <tbody>
+                    </thead>
+                    <tbody>
                         <tr>
-                        <td>Driving License</td>
-                          <td>Copy of Electricity Bill/Water Bill/Telephone Bill</td>
-                          <td>Employer Identity Card
-                        </td>
-                        
-                        </tr>
-                        <tr>
-                          <td>Voter ID</td>
-                          <td></td>
-                          <td>Loan account statement for the previous 12 months if the applicant has any other ongoing loan from other banks/financial institutions</td>
-                         
-                     
+                            <td>Driving License</td>
+                            <td>Copy of Electricity Bill/Water Bill/Telephone Bill</td>
+                            <td>Employer Identity Card
+                            </td>
+
                         </tr>
                         <tr>
-                         
-                          <td>Valid Passport</td>
-                          <td></td>
-                          <td>Bank account statements for all the bank accounts owned by the applicant for the last six months</td>
-                         
+                            <td>Voter ID</td>
+                            <td></td>
+                            <td>Loan account statement for the previous 12 months if the applicant has any other ongoing
+                                loan from other banks/financial institutions</td>
+
+
                         </tr>
-                      </tbody>
-                  
-                  </table>
+                        <tr>
+
+                            <td>Valid Passport</td>
+                            <td></td>
+                            <td>Bank account statements for all the bank accounts owned by the applicant for the last
+                                six months</td>
+
+                        </tr>
+                    </tbody>
+
+                </table>
             </div>
         </div>
-       
+
     </section>
 
     <section class="homeloan-eligibility">
@@ -1633,28 +1760,29 @@
                 <table class="table table-striped ">
                     <thead style="background-color: #116a9e; color: #fff; text-align:center;">
                         <tr>
-                          <th scope="col" style="width:50% ;">For Self-employed Applicant/Co-applicant:</th>
-                          <th scope="col" style="width:50% ;">		For Salaried Applicant/Co-applicant:</th>
-                          
+                            <th scope="col" style="width:50% ;">For Self-employed Applicant/Co-applicant:</th>
+                            <th scope="col" style="width:50% ;"> For Salaried Applicant/Co-applicant:</th>
+
                         </tr>
-                      </thead>
-                      <tbody>
+                    </thead>
+                    <tbody>
                         <tr>
-                        
-                          <td>Income Tax Returns for the last 3 years</td>
-                          <td>Salary Slips for the last three months</td>
-                        
-                        </tr>
-                        <tr>
-                          <td>Certificate of Qualification (for Doctors/CA and other professionals)</td>
-                          <td>Copy of Form 16 or Income Tax Returns for the last two years</td>
-                         
-                     
+
+                            <td>Income Tax Returns for the last 3 years</td>
+                            <td>Salary Slips for the last three months</td>
+
                         </tr>
                         <tr>
-                         
-                          <td>Balance Sheet audited by a certified CA and Profit and Loss account for the previous 3 years</td>
-                        
+                            <td>Certificate of Qualification (for Doctors/CA and other professionals)</td>
+                            <td>Copy of Form 16 or Income Tax Returns for the last two years</td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td>Balance Sheet audited by a certified CA and Profit and Loss account for the previous 3
+                                years</td>
+
                         </tr>
                         <tr>
                             <td>Business License Details</td>
@@ -1665,12 +1793,12 @@
                         <tr>
                             <td>TDS Certificate</td>
                         </tr>
-                      </tbody>
-                  
-                  </table>
+                    </tbody>
+
+                </table>
             </div>
         </div>
-       
+
     </section>
 
 
@@ -1682,65 +1810,70 @@
                 <table class="table table-striped ">
                     <thead style="background-color: #116a9e; color: #fff; text-align:center;">
                         <tr>
-                          <th scope="col" style="width:20% ;">
-                            Identity Proof (any one)</th>
-                          <th scope="col" style="width:40% ;">	Residence Proof (any one)</th>
-                          <th scope="col" style="width:40% ;">	Other Documents</th>
+                            <th scope="col" style="width:20% ;">
+                                Identity Proof (any one)</th>
+                            <th scope="col" style="width:40% ;"> Residence Proof (any one)</th>
+                            <th scope="col" style="width:40% ;"> Other Documents</th>
 
-                          
+
                         </tr>
-                      </thead>
-                      <tbody>
+                    </thead>
+                    <tbody>
                         <tr>
-                        <td>PAN</td>
-                          <td>Telephone bill</td>
-                          <td>Attested copy of the applicant’s/co-applicants’/guarantor’s valid passport and visa
-                        </td>
-                        
-                        </tr>
-                        <tr>
-                          <td>Valid Passport</td>
-                          <td>Electricity bill</td>
-                          <td>Proof of residence indicating the applicant’s current overseas address</td>
-                         
-                     
+                            <td>PAN</td>
+                            <td>Telephone bill</td>
+                            <td>Attested copy of the applicant’s/co-applicants’/guarantor’s valid passport and visa
+                            </td>
+
                         </tr>
                         <tr>
-                         
-                          <td>Driver’s License</td>
-                          <td>Water bill</td>
-                          <td>Employer Identity Card</td>
-                         
+                            <td>Valid Passport</td>
+                            <td>Electricity bill</td>
+                            <td>Proof of residence indicating the applicant’s current overseas address</td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td>Driver’s License</td>
+                            <td>Water bill</td>
+                            <td>Employer Identity Card</td>
+
                         </tr>
                         <tr>
                             <td>Voter ID Card</td>
                             <td>Piped Gas bill</td>
-                            <td>If the applicant is employed in the Merchant Navy, the applicant is required to submit a copy of Continuous Discharge Certificate (CDC)</td>
+                            <td>If the applicant is employed in the Merchant Navy, the applicant is required to submit a
+                                copy of Continuous Discharge Certificate (CDC)</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>Valid Passport</td>
-                            <td>	PIO Card issued by the Government of India in case the applicant/co-applicant is a Person of Indian Origin (PIO).</td>
+                            <td> PIO Card issued by the Government of India in case the applicant/co-applicant is a
+                                Person of Indian Origin (PIO).</td>
                         </tr>
                         <tr>
 
                             <td></td>
                             <td>Driving License</td>
-                            <td>The completed loan application form duly filled with three passport size photographs of the applicant and co-applicants.</td>
+                            <td>The completed loan application form duly filled with three passport size photographs of
+                                the applicant and co-applicants.</td>
 
 
                         </tr>
                         <tr>
                             <td></td>
-                            <td>	Aadhaar Card</td>
-                            <td>The attestation of the documents can be done by: 1. Indian Embassy/Consulate 2. Overseas Notary Public 3. FOs/Representative Offices 4. Officials of Branch/Sourcing Units based in India</td>
+                            <td> Aadhaar Card</td>
+                            <td>The attestation of the documents can be done by: 1. Indian Embassy/Consulate 2. Overseas
+                                Notary Public 3. FOs/Representative Offices 4. Officials of Branch/Sourcing Units based
+                                in India</td>
                         </tr>
-                      </tbody>
-                  
-                  </table>
+                    </tbody>
+
+                </table>
             </div>
         </div>
-       
+
     </section>
 
 
@@ -1749,55 +1882,61 @@
             <h3 class="top-heading-h3">Income Proof Documents for NRI</h3>
 
             <div class="table-responsive loneeligibiliy-table table-bordered">
-                <table class="">
+                <table class="income-document-table">
                     <thead style="background-color: #116a9e; color: #fff; text-align:center;">
                         <tr>
-                          <th scope="col"style="width: 50%;">
-                            For Self-employed Applicant/Co-applicant</th>
-                          <th scope="col" style="width:50%;">	For Salaried Applicant/Co-applicant
-                            Proof of income if the applicant/co-applicant is a self-employed professional/businessman.	</th>
-                         
+                            <th scope="col" style="width: 50%;">
+                                For Self-employed Applicant/Co-applicant</th>
+                            <th scope="col" style="width:50%;"> For Salaried Applicant/Co-applicant
+                                Proof of income if the applicant/co-applicant is a self-employed
+                                professional/businessman. </th>
 
-                          
+
+
                         </tr>
-                      </thead>
-                      <tbody>
-                       
+                    </thead>
+                    <tbody>
+
                         <tr>
-                          <td>Proof of income if the applicant/co-applicant is a self-employed professional/businessman.</td>
-                          <td>Valid work permit</td>
-                         
-                     
-                        </tr>
-                        <tr>
-                         
-                          <td>Business address proof</td>
-                          <td>Employment contract (translated in English) attested by the employer/consulate/embassy/Indian foreign office if the contract is in another language.</td>
-                         
+                            <td>Proof of income if the applicant/co-applicant is a self-employed
+                                professional/businessman.</td>
+                            <td>Valid work permit</td>
+
+
                         </tr>
                         <tr>
-                            <td>Balance Sheet and Profit and Loss accounts audited by a certified CA for the last 2 years</td>
+
+                            <td>Business address proof</td>
+                            <td>Employment contract (translated in English) attested by the
+                                employer/consulate/embassy/Indian foreign office if the contract is in another language.
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Balance Sheet and Profit and Loss accounts audited by a certified CA for the last 2
+                                years</td>
                             <td>Salary slips for the last 3 months</td>
                         </tr>
                         <tr>
-                            
-                            <td>Individual Tax Return for the last 2 years – Not applicable to NRIs/PIOs located in the Middle East countries.</td>
-                            <td>	Bank statements indicating salary credit for the last 6 months</td>
+
+                            <td>Individual Tax Return for the last 2 years – Not applicable to NRIs/PIOs located in the
+                                Middle East countries.</td>
+                            <td> Bank statements indicating salary credit for the last 6 months</td>
                         </tr>
-                    
-                 
-                      </tbody>
-                  
-                  </table>
+
+
+                    </tbody>
+
+                </table>
             </div>
         </div>
-       
+
     </section>
 
     <section class="section-property-paper">
         <div class="container">
             <h3 style="    font-size: 22px;
-            font-weight: 700;    color: #34495e;">Property Papers:</h3>           
+            font-weight: 700;    color: #34495e;">Property Papers:</h3>
             <ol class="pl-3">
                 <li> Agreement of Sale (any one) </li>
 
@@ -1811,14 +1950,14 @@
                     <li>
                         Allotment Letter
                     </li>
-                   
-            
+
+
                 </ul>
                 <li>Occupancy Certificate in case the property is a ready-to-move-in property</li>
                 <li>Copy (blueprint) of the Approved Plan and Registered Development agreement of the builder</li>
                 <li>Conveyance Deed in case of a new property</li>
                 <li>Bank account statements indicating all payments made to the seller or builder</li>
-               
+
 
             </ol>
 
@@ -1829,21 +1968,41 @@
     <section class="section-property-paper">
         <div class="container">
             <h3 style="    font-size: 22px;
-            font-weight: 700;    color: #34495e;">Home Loan Fees and Charges</h3>   
-            <p style="margin: 0 0 10px;line-height: 1.80;font-size: 16px;font-weight: 400;color: #34495e;">Depending on the type of loan you are applying for, the following charges may be levied:</p>        
+            font-weight: 700;    color: #34495e;">Home Loan Fees and Charges</h3>
+            <p style="margin: 0 0 10px;line-height: 1.80;font-size: 16px;font-weight: 400;color: #34495e;">Depending on
+                the type of loan you are applying for, the following charges may be levied:</p>
             <ul class="kotak-offer-list m-0">
-                <li><strong>Processing fees: </strong>This is a one-time non-refundable fee that is to be paid to the home loan provider after the loan application has been approved. The processing charge varies depending on the bank and the loan scheme you are applying for.</li>
-                <li><strong>Prepayment charges: </strong>Prepayment penalty is the fee you will have to pay the lender if you plan on repaying your home loan before the completion of the loan tenure.</li>
-                <li><strong>Conversion fees: </strong>Some banks also charge a conversion fee when you decide to switch to a different loan scheme in order to lower the interest rate associated with your current scheme.</li>
-                <li><strong>Cheque dishonour charges: </strong>The fee is levied when the loan provider find that a cheque issued by the borrower is found to be dishonoured due to reasons such as insufficient funds in the borrower’s account.</li>
-                <li><strong>Fees on account of external opinion: </strong>In some cases, you might want to consult an external expert such as a lawyer or a valuator for his/her opinion on the loan. This fee should be paid directly to the concerned person and not the lending institution.</li>
-                <li><strong>Home insurance: </strong>The premium should be paid directly to the concerned company during the term to ensure that the insurance policy is running during the home loan tenure.</li>
-                <li><strong>Default charges: </strong>Loan providers also charge a penalty on delayed repayments i.e. if you fail to make your Equated Monthly Instalments (EMIs) or Pre-EMIs on time. The defaulting charges vary from one bank to another.</li>
-                <li><strong>Incidental charges: </strong>This charge covers for the expenses incurred by the bank to recover dues from a borrower who has failed to make his monthly instalments on time.</li>
-                <li><strong>Statutory/regulatory charges: </strong>The fee includes all charges associated with Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI), Memorandum of Entry and Deposit, and stamp duty. You can visit <a href="https://www.cersai.org.in/CERSAI/home.prg" rel="nofollow">www.cersai.org.in</a> to know more about these charges.</li>
-                <li><strong>Photocopy of documents: </strong>The fee is payable to the bank if you require a photocopy of your home loan documents for any personal needs.</li>
-                <li><strong>Change in loan term: </strong>Some banks also charge a nominal fee if you wish to change the tenure associated with your loan.</li>
-                </ul>
+                <li><strong>Processing fees: </strong>This is a one-time non-refundable fee that is to be paid to the
+                    home loan provider after the loan application has been approved. The processing charge varies
+                    depending on the bank and the loan scheme you are applying for.</li>
+                <li><strong>Prepayment charges: </strong>Prepayment penalty is the fee you will have to pay the lender
+                    if you plan on repaying your home loan before the completion of the loan tenure.</li>
+                <li><strong>Conversion fees: </strong>Some banks also charge a conversion fee when you decide to switch
+                    to a different loan scheme in order to lower the interest rate associated with your current scheme.
+                </li>
+                <li><strong>Cheque dishonour charges: </strong>The fee is levied when the loan provider find that a
+                    cheque issued by the borrower is found to be dishonoured due to reasons such as insufficient funds
+                    in the borrower’s account.</li>
+                <li><strong>Fees on account of external opinion: </strong>In some cases, you might want to consult an
+                    external expert such as a lawyer or a valuator for his/her opinion on the loan. This fee should be
+                    paid directly to the concerned person and not the lending institution.</li>
+                <li><strong>Home insurance: </strong>The premium should be paid directly to the concerned company during
+                    the term to ensure that the insurance policy is running during the home loan tenure.</li>
+                <li><strong>Default charges: </strong>Loan providers also charge a penalty on delayed repayments i.e. if
+                    you fail to make your Equated Monthly Instalments (EMIs) or Pre-EMIs on time. The defaulting charges
+                    vary from one bank to another.</li>
+                <li><strong>Incidental charges: </strong>This charge covers for the expenses incurred by the bank to
+                    recover dues from a borrower who has failed to make his monthly instalments on time.</li>
+                <li><strong>Statutory/regulatory charges: </strong>The fee includes all charges associated with Central
+                    Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI), Memorandum
+                    of Entry and Deposit, and stamp duty. You can visit <a
+                        href="https://www.cersai.org.in/CERSAI/home.prg" rel="nofollow">www.cersai.org.in</a> to know
+                    more about these charges.</li>
+                <li><strong>Photocopy of documents: </strong>The fee is payable to the bank if you require a photocopy
+                    of your home loan documents for any personal needs.</li>
+                <li><strong>Change in loan term: </strong>Some banks also charge a nominal fee if you wish to change the
+                    tenure associated with your loan.</li>
+            </ul>
 
         </div>
 
@@ -1854,96 +2013,177 @@
     <section class="section-property-paper">
         <div class="container">
             <h3 style="    font-size: 22px;
-            font-weight: 700;    color: #34495e;">What to do if your home loan application is rejected?</h3>   
-            <p style="margin: 0 0 10px;line-height: 1.80;font-size: 16px;font-weight: 400;color: #34495e;">You can always re-apply for a home loan if your first loan application was rejected by the lender. However, there are a few aspects you must consider before doing so.
+            font-weight: 700;    color: #34495e;">What to do if your home loan application is rejected?</h3>
+            <p style="margin: 0 0 10px;line-height: 1.80;font-size: 16px;font-weight: 400;color: #34495e;">You can
+                always re-apply for a home loan if your first loan application was rejected by the lender. However,
+                there are a few aspects you must consider before doing so.
 
-            </p>        
-            <p><strong>Credit score: </strong>Since housing loans are generally long-term retail loans, lenders look into the applicant’s repayment capacity before approving or rejecting a loan application. Your credit score plays a major role in deciding your repayment capacity against a loan.</p>
-            <p>If you have a poor score on your credit report, chances of your loan application being rejected are high. The unsatisfactory credit score gauges your creditworthiness which banks and financial institutions consider before processing your loan application. Hence, it is advised to go through your credit score and credit report before you apply for a loan.</p>
+            </p>
+            <p><strong>Credit score: </strong>Since housing loans are generally long-term retail loans, lenders look
+                into the applicant’s repayment capacity before approving or rejecting a loan application. Your credit
+                score plays a major role in deciding your repayment capacity against a loan.</p>
+            <p>If you have a poor score on your credit report, chances of your loan application being rejected are high.
+                The unsatisfactory credit score gauges your creditworthiness which banks and financial institutions
+                consider before processing your loan application. Hence, it is advised to go through your credit score
+                and credit report before you apply for a loan.</p>
 
-            <p><strong>Loan Amount: </strong>Since housing loans are generally long-term retail loans, lenders look into the applicant’s repayment capacity before approving or rejecting a loan application. Your credit score plays a major role in deciding your repayment capacity against a loan.</p>
-            <p>In case you have a poor credit score, consider improving your score by making your debt repayments on time before you reapply for a housing loan again. If you do not know what your current score is, you can get your credit score along with the credit report on BankBazaar.</p>
+            <p><strong>Loan Amount: </strong>Since housing loans are generally long-term retail loans, lenders look into
+                the applicant’s repayment capacity before approving or rejecting a loan application. Your credit score
+                plays a major role in deciding your repayment capacity against a loan.</p>
+            <p>In case you have a poor credit score, consider improving your score by making your debt repayments on
+                time before you reapply for a housing loan again. If you do not know what your current score is, you can
+                get your credit score along with the credit report on BankBazaar.</p>
 
 
-        <ol>
-            <li><strong>What is a home loan?</strong>
-              <p>A home loan is a secured loan taken from a financial institution for the purpose of buying a residential property. You can avail a home loan to buy a ready-to-move in house or apartment or one that is under construction.  Home loans can be availed from both banks and Non Banking Financial Companies (NBFCs).</p>
-              <p>These have varying interest rates which are often linked to your credit score. Home loans typically have a tenure of up to 30 years and have to be repaid as Equated Monthly Installments. You can also get tax deductions on both the principal and interest component of your home loan under Section 80C and Section 24 respectively of the Income Tax Act.</p>
-            </li>
-            <li><strong>Which is the best bank for home loan?</strong>
-              <p>Before signing up for a home loan product, it’s best that you compare loans offered by different banks and lending institutions. While comparing, consider the interest rate, Loan-to-Value (LTV) ratio, processing fees, and tenure offered by the bank. Use a home loan EMI calculator and calculate your EMI based on these factors. Compare multiple home loan products by various banks by using this method. Also, certain lenders roll out home loan offers with reduced interest rates from time to time. Keep an eye on that too while looking for a loan.  Also, know your requirements first before applying. You can go through the above list to get an idea regarding which bank’s home loan would suit your requirement.</p>
-            </li>
-            <li><strong>How long it takes to get home loan sanctioned?</strong>
-              <p>Usually, it takes 3 to 4 weeks to get home loan sanctioned. However, you need to keep a few factors in mind for a better understanding. First of all, you need a pre-approval of your home loan from the concerned lender to get your loan sanctioned. However, pre-approval doesn’t always mean that your loan will be disbursed immediately and depends on certain external as well internal factors. For instance, your loan sanction can be delayed if there’s delay in submission of property or income-related documents.</p>
-            </li>
-            <li><strong>Which factors determine my home loan eligibility?</strong>
-              <p>Banks/financial institutions consider the following factors when determining your loan eligibility:</p>
-              <ul class="kotak-offer-list m-0">
-                <li>Age</li>
-                <li>Annual Income</li>
-                <li>Occupational stability</li>
-                <li>Resident type [Indian Citizen, Non-Resident Indian (NRI), Person of Indian Origin (PIO)]</li>
-                <li>Number of co-applicants</li>
-                <li>Co-applicants' income</li>
-                <li>Credit score</li>
-                <li>Other ongoing loans, if any</li>
-              </ul>
-            </li>
-            <li><strong>What is the difference between a fixed rate and floating rate home loan?</strong>
-              <p>The rate of interest associated with fixed rate loans remain unchanged during the entire tenure of the loan. On the other hand, the interest rates applicable on floating rate loans can be revised from time to time depending on the RBI key policy rates. The equated monthly instalments can increase or decrease depending on the prevailing RBI rates in the case floating rate type loans.</p>
-            </li>
-            <li><strong>Can I prepay my outstanding home loan amount?</strong>
-              <p>Yes, you can choose to prepay your outstanding loan amount either partially or in full before the completion of your loan tenure. While banks do not charge any prepayment fee on floating rate loans, fixed rate home loans attract a penalty up to 2% of the loan amount if prepaid through refinance.</p>
-            </li>
-            <li><strong>Can I avail tax deductions on my home loan?</strong>
-              <p>Yes, you can avail tax benefits on both the interest and principal component paid against your home loan. As per Section 80C of the Income Tax Act, you can avail deductions up to Rs.1.50 lakh on the principal amount repaid annually.</p>
-              <p>Under Section 24 of the IT Act, taxpayers are also eligible for benefits up to Rs.2 lakh on the interest repaid against a home loan annually.</p>
-            </li>
-            <li><strong>Who can be a co-applicant?</strong>
-              <p>The co-applicant can be an immediate family member such as your spouse, your parents or even your major children. It is also mandatory for all co-owners of the property to be co-applicants while applying for a loan. However, the co-applicant need not be a co-owner.</p>
-            </li>
-            <li><strong>What is Pre-EMI?</strong>
-              <p>Pre-EMI is defined as the interest that is to be paid to the loan provider until the entire loan amount is disbursed. The Pre-EMI is payable on a monthly basis until the last disbursement, post which the regular EMI will be applicable comprising the principal and interest components.</p>
-            </li>
-            <li><strong>What are the types of home loans available?</strong>
-              <ul>
-                <li><strong>Home Purchase Loan:</strong> Suitable for those looking to purchase a new house/flat or an under-construction property.</li>
-                <li><strong>Home Construction Loan: </strong>Can be availed by those looking to construct a house/property according to his/her plan.</li>
-                <li><strong>Home Conversion Loan:</strong> Suitable for those looking to purchase and move to another property when they have already bought a house with a home loan.</li>
-                <li><strong>Plot Loan:</strong> Can be availed by eligible borrowers looking to purchase a residential plot for the purpose of construction of a house/dwelling unit.</li>
-                <li><strong>Home Improvement Loan: </strong>These loans are sanctioned to those looking to repair/improve/renovate an already existing property.</li>
-                <li><strong>Home Extension Loan: </strong>Suitable for those looking to extend/expand/alter the structure of an existing property.</li>
-                <li><strong>Home Loan Balance Transfer:</strong> Can be availed by those who wish to transfer their outstanding home loan balance from their existing lender to another lender due to reasons such as reduced interest rates or better customer service.</li>
-                <li><strong>Home Loans for NRIs: </strong>These home loans cater to the housing needs of NRIs in the country. They also include PIOs and OCIs.</li>
-              </ul>
-            </li>
-            <li><strong>What is MCLR?</strong>
-              <p>Marginal Cost of funds-based Lending Rate is the benchmark rate set by a lending institution below which they cannot provide loans to their customers.</p>
-            </li>
-            <li><strong>Can I switch from a fixed rate to a floating rate during my home loan tenure?</strong>
-              <p>Yes, you can switch from a fixed to floating rate of interest on your home loan during the repayment tenure. However, you will be charged a conversion fee by the lender in such cases.</p>
-            </li>
-            <li><strong>When does my loan repayment period begin?</strong>
-              <p>The loan repayment period begins only after the loan provider has disbursed the entire home loan amount. However, you will be required to pay the interest i.e. pre-EMI on the partially disbursed loan on a monthly basis, in most cases.</p>
-            </li>
-            <li><strong>Can I take 2 home loans at the same time?</strong>
-              <p>Yes, you can take 2 home loans at the same time provided that your lender approves your eligibility to manage 2 Equated Monthly Instalments (EMIs) at the same time. However, the tax benefits on the second house will be different and you will be required to establish the property as self-occupied or let-out property.</p>
-            </li>
-            <li><strong>Can I get 100% financing on a home loan?</strong>
-              <p>No. Banks/financial institution do not grant 100% of the property value as home loan. Home loan lenders establish a margin on their loan i.e. the percentage of the cost that the lending institution will be covering. For example, if the margin on the loan is set at 10%, the bank will cover 90% of property value. In such cases, you will be required to a make a down payment of the balance amount, i.e. 10% in order to cover for the rest of the cost.</p>
-            </li>
-            <li><strong>Does having a personal loan affect home loan eligibility?</strong>
-              <p>When determining your home loan eligibility, the lender makes sure that your monthly repayments are not being affected by any other ongoing loans such as personal loan, two-wheeler loan, etc. However, other ongoing loans ultimately tend to affect your eligibility as your overall spending power is reduced. If your other loan commitments exceed 50%-60% of your monthly income, your home loan application may be rejected.</p>
-            </li>
-            <li><strong>Is personal loan better than home loan?</strong>
-              <p>If you are buying a house, home loan is the best option. Usually you will not be eligible for a personal loan for as high an amount required for the purchase of a house. If you want extra money for non-specific personal needs, then go for a personal loan. Home loans also have an added advantage of top-up loans wherein you can request a top up on your loan amount to cover additional needs such as furnishing your house.</p>
-            </li>
-            <li><strong>Can I buy a house with two loans?</strong>
-              <p>No, you cannot avail two home loans for the same property. Any such practice will be considered fraudulent. The Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI) ensures that fraudulent practices such as availing two housing loans for the same asset/property are prevented.</p>
-            </li>
-            <li><strong>How do joint home loans work?</strong>
-              <p>A joint home loan can be availed by adding a co-applicant such as your spouse, parents, or an immediate family member on your application. Adding a co-applicant will increase your home loan eligibility as the lending institution will also be considering the co-applicant's income and credit score when determining your loan eligibility. All co-owners of the property are required to be the co-applicant for a loan. However, the co-applicants need not necessarily be the co-owner of the concerned property.</p>
-            </li>
+            <ol>
+                <li><strong>What is a home loan?</strong>
+                    <p>A home loan is a secured loan taken from a financial institution for the purpose of buying a
+                        residential property. You can avail a home loan to buy a ready-to-move in house or apartment or
+                        one that is under construction. Home loans can be availed from both banks and Non Banking
+                        Financial Companies (NBFCs).</p>
+                    <p>These have varying interest rates which are often linked to your credit score. Home loans
+                        typically have a tenure of up to 30 years and have to be repaid as Equated Monthly Installments.
+                        You can also get tax deductions on both the principal and interest component of your home loan
+                        under Section 80C and Section 24 respectively of the Income Tax Act.</p>
+                </li>
+                <li><strong>Which is the best bank for home loan?</strong>
+                    <p>Before signing up for a home loan product, it’s best that you compare loans offered by different
+                        banks and lending institutions. While comparing, consider the interest rate, Loan-to-Value (LTV)
+                        ratio, processing fees, and tenure offered by the bank. Use a home loan EMI calculator and
+                        calculate your EMI based on these factors. Compare multiple home loan products by various banks
+                        by using this method. Also, certain lenders roll out home loan offers with reduced interest
+                        rates from time to time. Keep an eye on that too while looking for a loan. Also, know your
+                        requirements first before applying. You can go through the above list to get an idea regarding
+                        which bank’s home loan would suit your requirement.</p>
+                </li>
+                <li><strong>How long it takes to get home loan sanctioned?</strong>
+                    <p>Usually, it takes 3 to 4 weeks to get home loan sanctioned. However, you need to keep a few
+                        factors in mind for a better understanding. First of all, you need a pre-approval of your home
+                        loan from the concerned lender to get your loan sanctioned. However, pre-approval doesn’t always
+                        mean that your loan will be disbursed immediately and depends on certain external as well
+                        internal factors. For instance, your loan sanction can be delayed if there’s delay in submission
+                        of property or income-related documents.</p>
+                </li>
+                <li><strong>Which factors determine my home loan eligibility?</strong>
+                    <p>Banks/financial institutions consider the following factors when determining your loan
+                        eligibility:</p>
+                    <ul class="kotak-offer-list m-0">
+                        <li>Age</li>
+                        <li>Annual Income</li>
+                        <li>Occupational stability</li>
+                        <li>Resident type [Indian Citizen, Non-Resident Indian (NRI), Person of Indian Origin (PIO)]
+                        </li>
+                        <li>Number of co-applicants</li>
+                        <li>Co-applicants' income</li>
+                        <li>Credit score</li>
+                        <li>Other ongoing loans, if any</li>
+                    </ul>
+                </li>
+                <li><strong>What is the difference between a fixed rate and floating rate home loan?</strong>
+                    <p>The rate of interest associated with fixed rate loans remain unchanged during the entire tenure
+                        of the loan. On the other hand, the interest rates applicable on floating rate loans can be
+                        revised from time to time depending on the RBI key policy rates. The equated monthly instalments
+                        can increase or decrease depending on the prevailing RBI rates in the case floating rate type
+                        loans.</p>
+                </li>
+                <li><strong>Can I prepay my outstanding home loan amount?</strong>
+                    <p>Yes, you can choose to prepay your outstanding loan amount either partially or in full before the
+                        completion of your loan tenure. While banks do not charge any prepayment fee on floating rate
+                        loans, fixed rate home loans attract a penalty up to 2% of the loan amount if prepaid through
+                        refinance.</p>
+                </li>
+                <li><strong>Can I avail tax deductions on my home loan?</strong>
+                    <p>Yes, you can avail tax benefits on both the interest and principal component paid against your
+                        home loan. As per Section 80C of the Income Tax Act, you can avail deductions up to Rs.1.50 lakh
+                        on the principal amount repaid annually.</p>
+                    <p>Under Section 24 of the IT Act, taxpayers are also eligible for benefits up to Rs.2 lakh on the
+                        interest repaid against a home loan annually.</p>
+                </li>
+                <li><strong>Who can be a co-applicant?</strong>
+                    <p>The co-applicant can be an immediate family member such as your spouse, your parents or even your
+                        major children. It is also mandatory for all co-owners of the property to be co-applicants while
+                        applying for a loan. However, the co-applicant need not be a co-owner.</p>
+                </li>
+                <li><strong>What is Pre-EMI?</strong>
+                    <p>Pre-EMI is defined as the interest that is to be paid to the loan provider until the entire loan
+                        amount is disbursed. The Pre-EMI is payable on a monthly basis until the last disbursement, post
+                        which the regular EMI will be applicable comprising the principal and interest components.</p>
+                </li>
+                <li><strong>What are the types of home loans available?</strong>
+                    <ul>
+                        <li><strong>Home Purchase Loan:</strong> Suitable for those looking to purchase a new house/flat
+                            or an under-construction property.</li>
+                        <li><strong>Home Construction Loan: </strong>Can be availed by those looking to construct a
+                            house/property according to his/her plan.</li>
+                        <li><strong>Home Conversion Loan:</strong> Suitable for those looking to purchase and move to
+                            another property when they have already bought a house with a home loan.</li>
+                        <li><strong>Plot Loan:</strong> Can be availed by eligible borrowers looking to purchase a
+                            residential plot for the purpose of construction of a house/dwelling unit.</li>
+                        <li><strong>Home Improvement Loan: </strong>These loans are sanctioned to those looking to
+                            repair/improve/renovate an already existing property.</li>
+                        <li><strong>Home Extension Loan: </strong>Suitable for those looking to extend/expand/alter the
+                            structure of an existing property.</li>
+                        <li><strong>Home Loan Balance Transfer:</strong> Can be availed by those who wish to transfer
+                            their outstanding home loan balance from their existing lender to another lender due to
+                            reasons such as reduced interest rates or better customer service.</li>
+                        <li><strong>Home Loans for NRIs: </strong>These home loans cater to the housing needs of NRIs in
+                            the country. They also include PIOs and OCIs.</li>
+                    </ul>
+                </li>
+                <li><strong>What is MCLR?</strong>
+                    <p>Marginal Cost of funds-based Lending Rate is the benchmark rate set by a lending institution
+                        below which they cannot provide loans to their customers.</p>
+                </li>
+                <li><strong>Can I switch from a fixed rate to a floating rate during my home loan tenure?</strong>
+                    <p>Yes, you can switch from a fixed to floating rate of interest on your home loan during the
+                        repayment tenure. However, you will be charged a conversion fee by the lender in such cases.</p>
+                </li>
+                <li><strong>When does my loan repayment period begin?</strong>
+                    <p>The loan repayment period begins only after the loan provider has disbursed the entire home loan
+                        amount. However, you will be required to pay the interest i.e. pre-EMI on the partially
+                        disbursed loan on a monthly basis, in most cases.</p>
+                </li>
+                <li><strong>Can I take 2 home loans at the same time?</strong>
+                    <p>Yes, you can take 2 home loans at the same time provided that your lender approves your
+                        eligibility to manage 2 Equated Monthly Instalments (EMIs) at the same time. However, the tax
+                        benefits on the second house will be different and you will be required to establish the
+                        property as self-occupied or let-out property.</p>
+                </li>
+                <li><strong>Can I get 100% financing on a home loan?</strong>
+                    <p>No. Banks/financial institution do not grant 100% of the property value as home loan. Home loan
+                        lenders establish a margin on their loan i.e. the percentage of the cost that the lending
+                        institution will be covering. For example, if the margin on the loan is set at 10%, the bank
+                        will cover 90% of property value. In such cases, you will be required to a make a down payment
+                        of the balance amount, i.e. 10% in order to cover for the rest of the cost.</p>
+                </li>
+                <li><strong>Does having a personal loan affect home loan eligibility?</strong>
+                    <p>When determining your home loan eligibility, the lender makes sure that your monthly repayments
+                        are not being affected by any other ongoing loans such as personal loan, two-wheeler loan, etc.
+                        However, other ongoing loans ultimately tend to affect your eligibility as your overall spending
+                        power is reduced. If your other loan commitments exceed 50%-60% of your monthly income, your
+                        home loan application may be rejected.</p>
+                </li>
+                <li><strong>Is personal loan better than home loan?</strong>
+                    <p>If you are buying a house, home loan is the best option. Usually you will not be eligible for a
+                        personal loan for as high an amount required for the purchase of a house. If you want extra
+                        money for non-specific personal needs, then go for a personal loan. Home loans also have an
+                        added advantage of top-up loans wherein you can request a top up on your loan amount to cover
+                        additional needs such as furnishing your house.</p>
+                </li>
+                <li><strong>Can I buy a house with two loans?</strong>
+                    <p>No, you cannot avail two home loans for the same property. Any such practice will be considered
+                        fraudulent. The Central Registry of Securitisation Asset Reconstruction and Security Interest of
+                        India (CERSAI) ensures that fraudulent practices such as availing two housing loans for the same
+                        asset/property are prevented.</p>
+                </li>
+                <li><strong>How do joint home loans work?</strong>
+                    <p>A joint home loan can be availed by adding a co-applicant such as your spouse, parents, or an
+                        immediate family member on your application. Adding a co-applicant will increase your home loan
+                        eligibility as the lending institution will also be considering the co-applicant's income and
+                        credit score when determining your loan eligibility. All co-owners of the property are required
+                        to be the co-applicant for a loan. However, the co-applicants need not necessarily be the
+                        co-owner of the concerned property.</p>
+                </li>
             </ol>
         </div>
 
@@ -1956,11 +2196,12 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="w-100 btn-cololapsa">
-                     <a class=" w-100 btn-loans-drop" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Home Loan Articls
-                      </a>
+                        <a class=" w-100 btn-loans-drop" data-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Home Loan Articls
+                        </a>
                     </div>
-                      <div class="collapse" id="collapseExample">
+                    <div class="collapse" id="collapseExample">
                         <div class="card card-body border-0">
                             <ul class="-colapsinside">
                                 <li>
@@ -1971,26 +2212,27 @@
                                 </li>
                                 <li><a href="#">HDFC Home Loan</a></li>
                                 <li><a href="#">
-                                    Canara Home Loan
-                                </a></li>
+                                        Canara Home Loan
+                                    </a></li>
                                 <li><a href="#">PMB Home Loan</a></li>
 
                                 <li><a href="#">Kotak Home Loan</a></li>
 
                             </ul>
                         </div>
-                      </div>
+                    </div>
 
                 </div>
                 <div class="col-lg-4">
                     <div class="w-100 btn-cololapsa">
 
-                    <a class=" w-100 btn-loans-drop" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Home Loans by NBFC
-                      </a>
-                      </div>
+                        <a class=" w-100 btn-loans-drop" data-toggle="collapse" href="#collapseExample2" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Home Loans by NBFC
+                        </a>
+                    </div>
 
-                      <div class="collapse" id="collapseExample2">
+                    <div class="collapse" id="collapseExample2">
                         <div class="card card-body border-0">
                             <ul class="-colapsinside">
                                 <li>
@@ -2001,25 +2243,26 @@
                                 </li>
                                 <li><a href="#">HDFC Home Loan</a></li>
                                 <li><a href="#">
-                                    Canara Home Loan
-                                </a></li>
+                                        Canara Home Loan
+                                    </a></li>
                                 <li><a href="#">PMB Home Loan</a></li>
 
                                 <li><a href="#">Kotak Home Loan</a></li>
 
                             </ul>
                         </div>
-                      </div>
+                    </div>
 
                 </div>
                 <div class="col-lg-4">
                     <div class="w-100 btn-cololapsa">
 
-                    <a class="w-100 btn-loans-drop" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Home loans by Banks
-                      </a>
-                      </div>
-                      <div class="collapse" id="collapseExample3">
+                        <a class="w-100 btn-loans-drop" data-toggle="collapse" href="#collapseExample3" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Home loans by Banks
+                        </a>
+                    </div>
+                    <div class="collapse" id="collapseExample3">
                         <div class="card card-body border-0">
                             <ul class="-colapsinside">
                                 <li>
@@ -2030,69 +2273,199 @@
                                 </li>
                                 <li><a href="#">HDFC Home Loan</a></li>
                                 <li><a href="#">
-                                    Canara Home Loan
-                                </a></li>
+                                        Canara Home Loan
+                                    </a></li>
                                 <li><a href="#">PMB Home Loan</a></li>
 
                                 <li><a href="#">Kotak Home Loan</a></li>
 
                             </ul>
                         </div>
-                      </div>
+                    </div>
 
                 </div>
 
             </div>
 
             <div class="">
-                    <h3 id="Resources" class="pad-10 tcenter">Resources</h3>
-                    <div class="row resource-ul">
-                        <div class="col-md-4">
-                            <strong>Home Loan Resources</strong>
-                            <ul class="link-list">
-                            <li><a href="#" target="_blank" title="Home Loan Interest Rate">Home Loan Interest Rate</a></li>
+                <h3 id="Resources" class="pad-10 tcenter">Resources</h3>
+                <div class="row resource-ul">
+                    <div class="col-md-4">
+                        <strong>Home Loan Resources</strong>
+                        <ul class="link-list">
+                            <li><a href="#" target="_blank" title="Home Loan Interest Rate">Home Loan Interest Rate</a>
+                            </li>
                             <li><a href="#" target="_blank" title="Repo Rates">Repo Rates</a></li>
                             <li><a href="#" target="_blank" title="MCLR Rates">MCLR Rates</a></li>
-                            <li><a href="#" target="_blank" title="Home Loan Processing Fee">Home Loan Processing Fee</a></li>
-                            <li><a href="#" target="_blank" title="Home Loan Documents Required">Home Loan Documents Required</a></li>
+                            <li><a href="#" target="_blank" title="Home Loan Processing Fee">Home Loan Processing
+                                    Fee</a></li>
+                            <li><a href="#" target="_blank" title="Home Loan Documents Required">Home Loan Documents
+                                    Required</a></li>
                             <li><a href="#" target="_blank" title="Compare Plot Loan">Compare Plot Loan</a></li>
-                            <li><a href="#" target="_blank" title="Home Loan Tax Benefits">Home Loan Tax Benefits</a></li>
+                            <li><a href="#" target="_blank" title="Home Loan Tax Benefits">Home Loan Tax Benefits</a>
+                            </li>
                             <li><a href="#" target="_blank" title="Home Renovation Loan">Home Renovation Loan</a></li>
-                            </ul>
-                            </div>
-                            <div class="col-md-4">
-                            <strong>Schemes and Acts</strong>
-                            <ul class="link-list">
-                            <li><a href="/home-loan/pradhan-mantri-awas-yojana.html" target="_blank" title="Pradhan Mantri Awas Yojana">Pradhan Mantri Awas Yojana</a></li>
-                            <li><a href="/home-loan/pradhan-mantri-awas-yojana-gramin.html" target="_blank" title="PMAY Gramin">PMAY Gramin</a></li>
-                            <li><a href="/home-loan/pmay-urban.html" target="_blank" title="PMAY Urban">PMAY Urban</a></li>
-                            <li><a href="/home-loan/rera-act.html" target="_blank" title="RERA Act">RERA Act</a></li>
-                            <li><a href="/home-loan/property-registration-fees-and-stamp-duty-charges.html" target="_blank" title="Stamp Duty Charges">Stamp Duty Charges</a></li>
-                            <li><a href="/home-loan/encumbrance-certificate.html" target="_blank" title="Encumbrance Certificate">Encumbrance Certificate</a></li>
-                            <li><a href="/home-loan/dda-housing-scheme.html" target="_blank" title="DDA Housing Scheme">DDA Housing Scheme</a></li>
-                            <li><a href="/home-loan/land-record.html" target="_blank" title="Land Records">Land Records</a></li>
-                            </ul>
-                            </div>
-                            <div class="col-md-4">
-                            <strong>Calculator</strong>
-                            <ul class="link-list">
-                            <li><a href="/home-loan/emi-calculator.html" target="_blank" title="Home Loan Calculator">Home Loan EMI Calculator</a></li>
-                            <li><a href="/home-loan-eligibility.html" target="_blank" title="Home Loan Eligibility Calculator">Home Loan Eligibility Calculator</a></li>
-                            <li><a href="/home-loan-balance-transfer.html" target="_blank" title="Home Loan Balance Transfer Calculator">Home Loan Balance Transfer Calculator</a></li>
-                            <li><a href="/home-loan/home-loan-prepayment-calculator.html" target="_blank" title="Home Loan Prepayment Calculator">Home Loan Prepayment Calculator</a></li>
-                            <li>
-                            <a href="/home-loan/repayment-calculator.html" target="_blank" title="Home Loan Prepayment Calculator">Home Loan Repayment Calculator</a>
-                            </li>
-                            <li>
-                            <a href="/home-loan/land-calculator.html" target="_blank" title="Land Conversion Calculator">Land Conversion Calculator</a>
-                            </li>
-                            <li><a href="/home-loan/home-loan-affordability-calculator.html" target="_blank" title="Home Affordability Calculator">Home Loan Affordability Calculator</a></li>
-                            <li><a href="/home-loan/pmay-subsidy-calculator.html" target="_blank" title="PMAY Subsidy Calculator">PMAY Subsidy Calculator</a></li>
-                            </ul>
-                            </div>
-
+                        </ul>
                     </div>
-                   
+                    <div class="col-md-4">
+                        <strong>Schemes and Acts</strong>
+                        <ul class="link-list">
+                            <li><a href="/home-loan/pradhan-mantri-awas-yojana.html" target="_blank"
+                                    title="Pradhan Mantri Awas Yojana">Pradhan Mantri Awas Yojana</a></li>
+                            <li><a href="/home-loan/pradhan-mantri-awas-yojana-gramin.html" target="_blank"
+                                    title="PMAY Gramin">PMAY Gramin</a></li>
+                            <li><a href="/home-loan/pmay-urban.html" target="_blank" title="PMAY Urban">PMAY Urban</a>
+                            </li>
+                            <li><a href="/home-loan/rera-act.html" target="_blank" title="RERA Act">RERA Act</a></li>
+                            <li><a href="/home-loan/property-registration-fees-and-stamp-duty-charges.html"
+                                    target="_blank" title="Stamp Duty Charges">Stamp Duty Charges</a></li>
+                            <li><a href="/home-loan/encumbrance-certificate.html" target="_blank"
+                                    title="Encumbrance Certificate">Encumbrance Certificate</a></li>
+                            <li><a href="/home-loan/dda-housing-scheme.html" target="_blank"
+                                    title="DDA Housing Scheme">DDA Housing Scheme</a></li>
+                            <li><a href="/home-loan/land-record.html" target="_blank" title="Land Records">Land
+                                    Records</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <strong>Calculator</strong>
+                        <ul class="link-list">
+                            <li><a href="/home-loan/emi-calculator.html" target="_blank"
+                                    title="Home Loan Calculator">Home Loan EMI Calculator</a></li>
+                            <li><a href="/home-loan-eligibility.html" target="_blank"
+                                    title="Home Loan Eligibility Calculator">Home Loan Eligibility Calculator</a></li>
+                            <li><a href="/home-loan-balance-transfer.html" target="_blank"
+                                    title="Home Loan Balance Transfer Calculator">Home Loan Balance Transfer
+                                    Calculator</a></li>
+                            <li><a href="/home-loan/home-loan-prepayment-calculator.html" target="_blank"
+                                    title="Home Loan Prepayment Calculator">Home Loan Prepayment Calculator</a></li>
+                            <li>
+                                <a href="/home-loan/repayment-calculator.html" target="_blank"
+                                    title="Home Loan Prepayment Calculator">Home Loan Repayment Calculator</a>
+                            </li>
+                            <li>
+                                <a href="/home-loan/land-calculator.html" target="_blank"
+                                    title="Land Conversion Calculator">Land Conversion Calculator</a>
+                            </li>
+                            <li><a href="/home-loan/home-loan-affordability-calculator.html" target="_blank"
+                                    title="Home Affordability Calculator">Home Loan Affordability Calculator</a></li>
+                            <li><a href="/home-loan/pmay-subsidy-calculator.html" target="_blank"
+                                    title="PMAY Subsidy Calculator">PMAY Subsidy Calculator</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="home-loannews">
+        <div class="container">
+            <div class="row news-widget">
+                <h2 class="tcenter btm-pad">Home Loan News</h2>
+                <ul class="ul-for-home-news">
+
+                    <li class="news-green">
+                        <h3 class="news-head">HDFC Bank increases the lending rate by 25 bps</h3>
+                        <p>HDFC Ltd. Has hiked its benchmark lending rate by 25 basis points. This is the fifth hike
+                            effected by HDFC in two months. The new rate has been increased by 115 basis points since
+                            May this year.</p>
+
+                        <div class="pull-right">
+                            <p><em>01 Aug 2022</em></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+
+                    <li class="news-green">
+                        <h3 class="news-head">Bhubaneswar government reduces interest rate on home loans to 8% for
+                            government staff</h3>
+                        <p>On Tuesday, the Bhubaneswar government increased the house building advance (HBA) from Rs.25
+                            lakh to Rs.40 lakh for its employees as well as introduced an 8% interest rate. Over three
+                            lakh employees will be benefitted from this move. The interest rate will now continue at 8%,
+                            regardless of the loan amount up to a maximum of Rs.40 lakh.The government issued a
+                            statement that said state government employees can avail loans in two phases in a 60:40
+                            ratio. According to a government official, the state action follows a similar endeavour by
+                            the Centre to reduce the interest rate to 7.1% in accordance with the recommendations of the
+                            7th Pay Commission.</p>
+
+                        <div class="pull-right">
+                            <p><em>14 July 2022</em></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+
+
+                    <li class="news-green">
+                        <h3 class="news-head">RBI approves HDFC Bank merger with HDFC</h3>
+                        <p>The Reserve Bank of India has approved a merger between Housing Development Finance
+                            Corporation (HDFC) and HDFC Bank. This will make HDFC Bank an institution that is wholly
+                            publicly owned and end the 21% promoter holding that HDFC currently has in the bank. This
+                            will make HDFC Bank one of the 10 most valued banks in the world with the merger being the
+                            largest in the corporate history of the country. HDFC shareholders will get 42 HDFC Bank
+                            shares for every 25 HDFC shares.</p>
+
+                        <div class="pull-right">
+                            <p><em>05 July 2022</em></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+
+
+                    <li class="news-green">
+                        <h3 class="news-head">LIC Housing Finance has increased lending rate by 60 bps</h3>
+                        <p>LIC Housing Finance Ltd has hiked the benchmark Prime Lending Rate (LHPLR) by 60 basis points
+                            with effect from 20 June 2022. Borrowers who have a credit score of 700 and above can avail
+                            loans starting from 7.50%. </p>
+
+                        <div class="pull-right">
+                            <p><em>21 June 2022</em></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+
+
+
+                    <li class="news-green">
+                        <h3 class="news-head">Piramal Capital &amp; Housing Finance to launch Gruh Setu Home Loans for
+                            underserved sectors</h3>
+                        <p>Piramal Capital &amp; Housing Finance Limited (PCHFL) is venturing into the home loan sector
+                            for the underserved and unserved demographics by partnering with India Mortgage Guarantee
+                            Corporation (IMGC) to offer home loans at affordable interest rates that are backed by
+                            mortage guarantees. These loans will have a tenure of up to 25 years and will range from
+                            Rs.5 lakh up to Rs.75 lakh. The Gruh Setu Home Loan will be offered to salaried individuals
+                            who receive their salary by cash or through their banks. It will also be offered to
+                            self-employed professionals as well as to pensioners. Partners and proprietors of
+                            partnership firms, employees of such firms, as well as small business owners are also
+                            eligible for the loan.</p>
+
+                        <div class="pull-right">
+                            <p><em>21 March 2022</em></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+
+                    <li class="news-green">
+                        <h3 class="news-head">Goa: State Government approves new housing loan scheme for government
+                            employees</h3>
+                        <p>A new housing loan scheme has been approved for the State Government of Goa for government
+                            employees on 10 January 2022. The implementation of this scheme will be done through the
+                            Economic Development Corporation (EDC). Permanent or regular state government employees in
+                            government departments or on deputation to corporations and autonomous bodies can benefit
+                            from this scheme. The housing loan scheme will be applicable to constructing a new house on
+                            land owned by an employee or their spouse, jointly or separately. State government employees
+                            who wish to buy a plot and construct a house or buy a ready-built house can also avail of
+                            this scheme. The loan limit will be determined on the basis of the employee’s gross salary
+                            and will be subjected to a maximum loan amount of Rs.40 lakh. A maximum advance amount of
+                            Rs.40 crore will be sanctioned per year on a first come first serve basis.</p>
+
+                        <div class="pull-right">
+                            <p><em>11 January 2022</em></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -2274,9 +2647,9 @@
                             <a href="#"> Bank IFSC Code</a>
                             <a href="#">
                                 Indian Holidays</a>
-                                <a href="#">In The News</a>
+                            <a href="#">In The News</a>
                         </div>
-    
+
                     </li>
                 </ul>
             </div>
@@ -2293,41 +2666,41 @@
                     <div class="col-lg-5">
                         <h5>Contact Us</h5>
                         <a href="#">
-                           <ul>
-                            <li>
-                                <i class="fas fa-envelope mr-1"></i>
-                                support[at]bankbazaar[dot]com
-                            </li>
-                           </ul>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-envelope mr-1"></i>
+                                    support[at]bankbazaar[dot]com
+                                </li>
+                            </ul>
                         </a>
                     </div>
                     <div class="col-lg-4">
                         <h5>Follow Us</h5>
-                        
-                          <ul class="-icons-footers">
-                            <li >
+
+                        <ul class="-icons-footers">
+                            <li>
                                 <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
 
                             </li>
                             <li>
                                 <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
                             </li>
                             <li>
                                 <a href="#">
-                                <i class="fab fa-instagram"></i>
-                            </a>
+                                    <i class="fab fa-instagram"></i>
+                                </a>
                             </li>
                             <li>
                                 <a href="#">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
                             </li>
-                          </ul>
-                    
+                        </ul>
+
                     </div>
                 </div>
                 <div class="row text-center">
@@ -2352,15 +2725,15 @@
                                 <a href="#">Notice to customer</a>
                             </li>
                         </ul>
-                        <p> Copyright © 2022   BankBazaar.com.  Privacy Policy</p>
+                        <p> Copyright © 2022 BankBazaar.com. Privacy Policy</p>
 
                     </div>
-                   
+
                 </div>
             </div>
         </div>
 
-      
+
         <!-- Shape -->
         <div class="footer-shape" style="background-image: url(assets/img/shape/1.svg);"></div>
         <!-- End Shape -->
